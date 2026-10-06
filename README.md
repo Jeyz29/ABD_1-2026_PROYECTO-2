@@ -1,6 +1,6 @@
 # Sistema de Gestión y Liquidación de Comisiones — CompuComisiones, C.A.
 
-> **Proyecto II — Administración de Bases de Datos (1-2026)**  
+> **Proyecto II — Administración de Bases de Datos**  
 > **Universidad Central de Venezuela (UCV)**  
 > **Facultad de Ciencias — Escuela de Computación**
 

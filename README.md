@@ -97,9 +97,4 @@ Ejecutar los scripts en Microsoft SQL Server (SSMS o Azure Data Studio) en orden
    - Cálculos y liquidaciones mediante Stored Procedures.
    - Comprobación de roles y permisos.
 
----
 
-## 👥 Autoría y Créditos
-- **Estudiante / Desarrollador:** Gabriel Berneche
-- **Materia:** Administración de Bases de Datos
-- **Semestre:** 1-2026

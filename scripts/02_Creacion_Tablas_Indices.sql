@@ -174,6 +174,7 @@ CREATE TABLE comisiones.Producto
     codigo_producto VARCHAR(20)    NOT NULL,
     nombre          VARCHAR(150)   NOT NULL,
     categoria       VARCHAR(100)   NOT NULL,
+    precio          DECIMAL(14,2)  NOT NULL DEFAULT 0,
     costo_unitario  DECIMAL(14,2)  NOT NULL DEFAULT 0,
 
     CONSTRAINT id_producto_Producto_indx PRIMARY KEY CLUSTERED (id_producto)
@@ -182,6 +183,7 @@ CREATE TABLE comisiones.Producto
     CONSTRAINT UQ_Producto_codigo UNIQUE (codigo_producto)
         ON FG_COMPU_INDEX,
 
+    CONSTRAINT CK_Producto_precio CHECK (precio >= 0),
     CONSTRAINT CK_Producto_costo CHECK (costo_unitario >= 0),
     CONSTRAINT CK_Producto_campos CHECK (
         LEN(LTRIM(RTRIM(codigo_producto))) > 0 AND

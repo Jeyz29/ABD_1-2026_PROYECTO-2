@@ -158,17 +158,17 @@ GO
 -- ============================================================================
 -- 7. TABLA: comisiones.Producto (10 productos de tecnología y software)
 -- ============================================================================
-INSERT INTO comisiones.Producto (codigo_producto, nombre, categoria, costo_unitario) VALUES
-('PRD-SW-01', 'Plataforma SaaS CompuComisiones Enterprise', 'Software SaaS', 1200.00),
-('PRD-SW-02', 'Módulo de Analítica Predictiva Comercial', 'Software SaaS', 600.00),
-('PRD-SW-03', 'Licencia Base de Datos SQL Server Enterprise Core', 'Licencias', 2500.00),
-('PRD-HW-01', 'Servidor Rack Dell PowerEdge R750', 'Hardware Servidores', 4500.00),
-('PRD-HW-02', 'Almacenamiento SAN HPE Primera 600', 'Hardware Almacenamiento', 9000.00),
-('PRD-HW-03', 'Switch Cisco Catalyst 9300 48 Puertos PoE', 'Redes y Telecomunicaciones', 2800.00),
-('PRD-SEC-01', 'Firewall Fortinet FortiGate 200F', 'Seguridad Informática', 3200.00),
-('PRD-SRV-01', 'Póliza Anual de Soporte Crítico 24/7', 'Servicios Profesionales', 800.00),
-('PRD-SRV-02', 'Consultoría de Implementación y Migración Cloud', 'Servicios Profesionales', 1500.00),
-('PRD-SRV-03', 'Capacitación Certificada de Administradores', 'Servicios Profesionales', 400.00);
+INSERT INTO comisiones.Producto (codigo_producto, nombre, categoria, precio, costo_unitario) VALUES
+('PRD-SW-01', 'Plataforma SaaS CompuComisiones Enterprise', 'Software SaaS', 3500.00, 1200.00),
+('PRD-SW-02', 'Módulo de Analítica Predictiva Comercial', 'Software SaaS', 1500.00, 600.00),
+('PRD-SW-03', 'Licencia Base de Datos SQL Server Enterprise Core', 'Licencias', 5500.00, 2500.00),
+('PRD-HW-01', 'Servidor Rack Dell PowerEdge R750', 'Hardware Servidores', 9000.00, 4500.00),
+('PRD-HW-02', 'Almacenamiento SAN HPE Primera 600', 'Hardware Almacenamiento', 28000.00, 9000.00),
+('PRD-HW-03', 'Switch Cisco Catalyst 9300 48 Puertos PoE', 'Redes y Telecomunicaciones', 4800.00, 2800.00),
+('PRD-SEC-01', 'Firewall Fortinet FortiGate 200F', 'Seguridad Informática', 5500.00, 3200.00),
+('PRD-SRV-01', 'Póliza Anual de Soporte Crítico 24/7', 'Servicios Profesionales', 6500.00, 800.00),
+('PRD-SRV-02', 'Consultoría de Implementación y Migración Cloud', 'Servicios Profesionales', 8500.00, 1500.00),
+('PRD-SRV-03', 'Capacitación Certificada de Administradores', 'Servicios Profesionales', 1500.00, 400.00);
 GO
 
 -- ============================================================================

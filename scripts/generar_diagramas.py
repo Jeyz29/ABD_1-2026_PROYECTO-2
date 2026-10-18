@@ -82,6 +82,7 @@ mermaid_code = """erDiagram
         VARCHAR codigo_producto UK
         VARCHAR nombre
         VARCHAR categoria
+        DECIMAL precio
         DECIMAL costo_unitario
     }
 
